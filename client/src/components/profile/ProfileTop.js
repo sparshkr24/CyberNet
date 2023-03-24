@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+let dpImg = "https://media.istockphoto.com/id/1219473617/vector/young-male-character-writing-code-on-a-desktop-computer-working-from-home-millennials-at-work.jpg?s=612x612&w=0&k=20&c=9KrYfX8M5lFqpUN2y5Pklac_XebWqnI0bmDkMB6NLhU=";
+
 const ProfileTop = ({
     profile: {
         status,
@@ -13,7 +15,7 @@ const ProfileTop = ({
 }) => {
     return (
         <div className='profile-top bg-primary p-2'>
-            <img className='round-img my-1' src={avatar} alt='' />
+            <img style={{width: "22%"}} className='round-img my-1' src={dpImg} alt='' />
             <h1 className='large'>{name}</h1>
             <p className='lead'>
                 {status} {company && <span>at {company}</span>}

@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+let imgUrl = "https://cdn3.iconfinder.com/data/icons/user-interface-web-1/550/web-circle-circular-round_11-512.png";
+
 const ProfileItem = ({
     profile: {
         user: { _id, name, avatar },
@@ -13,7 +15,7 @@ const ProfileItem = ({
 }) => {
     return (
         <div className='profile bg-light'>
-            <img src={avatar} alt='' className='round-img' />
+           <img src={imgUrl} alt='' className='round-img' />
             <div>
                 <h2>{name}</h2>
                 <p>

@@ -3,6 +3,7 @@ import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { login } from '../../actions/auth';
+import loginImg from '../../img/login.jpg'
 // import axios from 'axios';
 
 const Login = ({ login, isAuthenticated }) => {
@@ -27,37 +28,42 @@ const Login = ({ login, isAuthenticated }) => {
         <Fragment>
             <h1 className='large text-primary'>Sign In</h1>
             <p className='lead'>
-                <i className='fa fa-user'></i> Sign Into Your Account
+                <i class="fas fa-user-secret"></i> Sign Into Your Account
             </p>
-            <form className='form' onSubmit={(e) => onSubmit(e)}>
-                <div className='form-group'>
+            <div className='form-div'>
+                <form className='form' onSubmit={(e) => onSubmit(e)}>
+                    <div className='form-group'>
+                        <input
+                            type='email'
+                            placeholder='Email Address'
+                            name='email'
+                            value={email}
+                            onChange={(e) => onChange(e)}
+                        />
+                    </div>
+                    <div className='form-group'>
+                        <input
+                            type='password'
+                            placeholder='Password'
+                            name='password'
+                            value={password}
+                            onChange={(e) => onChange(e)}
+                            minLength='6'
+                        />
+                    </div>
                     <input
-                        type='email'
-                        placeholder='Email Address'
-                        name='email'
-                        value={email}
-                        onChange={(e) => onChange(e)}
+                        type='submit'
+                        className='btn btn-primary'
+                        value='Login'
                     />
-                </div>
-                <div className='form-group'>
-                    <input
-                        type='password'
-                        placeholder='Password'
-                        name='password'
-                        value={password}
-                        onChange={(e) => onChange(e)}
-                        minLength='6'
-                    />
-                </div>
-                <input
-                    type='submit'
-                    className='btn btn-primary'
-                    value='Login'
-                />
-            </form>
-            <p className='my-1'>
-                Don't have an account? <Link to='/register'>Sign Up</Link>
-            </p>
+                </form>
+                <p className='my-1'>
+                    Don't have an account? <Link to='/register'>Sign Up</Link>
+                </p>
+            </div>
+            <div className='svg-div'>
+                <img className='svg-img' src = {loginImg} alt='login-img'></img>
+            </div>
         </Fragment>
     );
 };
