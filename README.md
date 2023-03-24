@@ -12,11 +12,12 @@
 |Screen Name | Screenshots |
 |---|--|
 |Landing Page|<img src='./screenshots/ss1.png' alt='Screenshot of the App'>|
-|Dashboard|<img src='./screenshots/ss2.png' alt='Screenshot of the App'>|
-|Community|<img src='./screenshots/ss3.png' alt='Screenshot of the App'>|
-|Post Section|<img src='./screenshots/ss4.png' alt='Screenshot of the App'>|
-|View profile|<img src='./screenshots/ss5.png' alt='Screenshot of the App'>|
-|Github Repos|<img src='./screenshots/ss6.png' alt='Screenshot of the App'>|
+|Dashboard|<img src='./screenshots/dashBoard.png.png' alt='Screenshot of the App'>|
+|SignUp|<img src='./screenshots/signUp.png.png.png' alt='Screenshot of the App'>|
+|Community|<img src='./screenshots/developers.png.png' alt='Screenshot of the App'>|
+|Post Section|<img src='./screenshots/posts.png.png' alt='Screenshot of the App'>|
+|View profile|<img src='./screenshots/editProfile.png.png' alt='Screenshot of the App'>|
+|Add Education|<img src='./screenshots/addEdu.png.png' alt='Screenshot of the App'>|
 
 
 ***
