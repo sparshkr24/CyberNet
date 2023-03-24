@@ -12,12 +12,12 @@
 |Screen Name | Screenshots |
 |---|--|
 |Landing Page|<img src='./screenshots/ss1.png' alt='Screenshot of the App'>|
-|Dashboard|<img src='./screenshots/dashBoard.png.png' alt='Screenshot of the App'>|
-|SignUp|<img src='./screenshots/signUp.png.png.png' alt='Screenshot of the App'>|
-|Community|<img src='./screenshots/developers.png.png' alt='Screenshot of the App'>|
-|Post Section|<img src='./screenshots/posts.png.png' alt='Screenshot of the App'>|
-|View profile|<img src='./screenshots/editProfile.png.png' alt='Screenshot of the App'>|
-|Add Education|<img src='./screenshots/addEdu.png.png' alt='Screenshot of the App'>|
+|Dashboard|<img src='./screenshots/dashBoard.png' alt='Screenshot of the App'>|
+|SignUp|<img src='./screenshots/signUp.png' alt='Screenshot of the App'>|
+|Community|<img src='./screenshots/developers.png' alt='Screenshot of the App'>|
+|Post Section|<img src='./screenshots/posts.png' alt='Screenshot of the App'>|
+|View profile|<img src='./screenshots/editProfile.png' alt='Screenshot of the App'>|
+|Add Education|<img src='./screenshots/addEdu.png' alt='Screenshot of the App'>|
 
 
 ***
