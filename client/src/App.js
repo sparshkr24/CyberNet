@@ -32,6 +32,7 @@ const App = () => {
     }, []);
 
     return (
+        <>
         <Provider store={store}>
             <Router>
                 <Fragment>
@@ -96,6 +97,7 @@ const App = () => {
                 </Fragment>
             </Router>
         </Provider>
+        </>
     );
 };
 

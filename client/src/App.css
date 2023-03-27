@@ -61,6 +61,30 @@ img {
 .lead {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    /* new */
+   
+}
+
+.custom-animation{
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;  
+    color: rgba(255,255,255,.70);
+    animation: animated-text 4s steps(51,end) 1s 1 normal both,
+               animated-cursor 600ms steps(51,end) infinite;
+    animation-delay: 2500;
+}
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 645px;}
+  }
+  
+  /* cursor animations */
+  
+@keyframes animated-cursor{
+    from{border-right-color: rgba(0, 140, 255, 0.75);}
+    to{border-right-color: transparent;}
 }
 
 .text-center {
@@ -626,6 +650,11 @@ button {
 .d-flex{
     display: flex;
     justify-content: space-between;
+}
+
+.landing-footer{
+    background-color: black;
+    height: auto;
 }
 
 @media only screen and (max-width: 767px) {

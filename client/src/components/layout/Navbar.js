@@ -52,7 +52,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <nav className='navbar bg-dark'>
             <h1>
                 <Link to='/'>
-                    <i class="fas fa-user-secret"></i> DevLink
+                    <i class="fas fa-user-secret"></i> CyberNet
                 </Link>
             </h1>
             {!loading && (

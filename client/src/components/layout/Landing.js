@@ -8,15 +8,16 @@ const Landing = ({ isAuthenticated }) => {
         return <Redirect to='/dashboard' />;
     }
     return (
+        <>
         <section className='landing'>
             <div className='dark-overlay'>
                 <div className='landing-inner'>
-                    <h1 className='x-large'>Social Network for Developer</h1>
-                    <p className='lead'>
+                    <h1 className='x-large'>Social Network for Programmers</h1>
+                    <p className='lead custom-animation'>
                         Connect and share ideas with other professionals in the field
                     </p>
                     <div className='buttons'>
-                        <Link to='/register' className='btn main-btn btn-primary'>
+                        <Link to='/register' style={{backgroundColor:"#6a53bdd2"}} className='btn main-btn btn-primary'>
                             Sign Up
                         </Link>
                         <Link to='/login' className='btn main-btn btn-light'>
@@ -26,6 +27,7 @@ const Landing = ({ isAuthenticated }) => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 
