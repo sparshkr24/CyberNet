@@ -1,5 +1,5 @@
-# DevConnector ‎‍💻
-- A Social network for developers, built on the MERN stack
+# CyberNet ‎‍💻
+- A Social network for Programmers, built on the MERN stack
 - Functionalities of the app:
     - Signup or login into DevLink
     - Add Details to your profile (Education, Experience, Social Links etc.)
